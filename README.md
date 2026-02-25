@@ -12,7 +12,7 @@ Two benefits of LSGANs:
 Here is, the objective function of the classical GAN:
 
 $$
-V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x|y)] + \mathbb{E}_{z \sim p_z}[\log (1 - D(G(z|y)))]
+V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log (1 - D(G(z)))]
 $$
 
 The proposed objective function of LSGAN:
