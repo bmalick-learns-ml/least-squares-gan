@@ -1,0 +1,6 @@
+*.png
+*.zip
+*.gif
+__pycache__
+/mnist
+MNIST
